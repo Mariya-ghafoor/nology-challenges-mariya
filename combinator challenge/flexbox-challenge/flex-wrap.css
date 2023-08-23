@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 100%;
+
+  /* align-items: flex-start;
+  justify-content: center; */
+  flex-wrap: wrap;
+}
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card4 {
+  background-color: azure;
+  height: 80%;
+  width: 30%;
+}
+
+#card5 {
+  background-color: orange;
+  height: 80%;
+  width: 30%;
+}
+
+#card6 {
+  background-color: palevioletred;
+  height: 80%;
+  width: 30%;
+}
+
+#card7 {
+  background-color: red;
+  height: 80%;
+  width: 30%;
+}

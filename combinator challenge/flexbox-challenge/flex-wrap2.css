@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  height: 400px;
+  width: 100%;
+
+  /* align-items: flex-start;
+  justify-content: center; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+#card8 {
+  background-color: azure;
+
+  width: 33%;
+}
+
+#card9 {
+  background-color: orange;
+
+  width: 33%;
+}
+
+#card10 {
+  background-color: palevioletred;
+
+  width: 33%;
+}
+
+#card11 {
+  background-color: red;
+
+  width: 33%;
+}
+
+#card12 {
+  background-color: lightgreen;
+
+  width: 33%;
+}
