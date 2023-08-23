@@ -1,0 +1,20 @@
+div>h1~p {
+  color: lightgray;
+}
+
+div>h1+p {
+  color: black;
+  font-style: italic;
+}
+
+div>h2~p {
+  text-decoration: underline;
+}
+
+div>h3~p {
+  color: blue;
+}
+
+div>h3+p {
+  color: black;
+}
