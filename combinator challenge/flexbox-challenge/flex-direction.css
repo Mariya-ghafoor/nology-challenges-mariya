@@ -1,0 +1,71 @@
+/* section {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  gap: 20px;
+} */
+
+.card {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.flex-row {
+  display: flex;
+
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+
+  gap: 20px;
+}
+
+
+#card1 {
+  background-color: azure;
+
+}
+
+#card2 {
+  background-color: palevioletred;
+
+}
+
+#card3 {
+  background-color: lightgreen
+}
+
+#card4 {
+  background-color: orange;
+
+}
+
+#card5 {
+  background-color: pink
+}
+
+#card6 {
+  background-color: gray
+}
+
+#card7 {
+  background-color: lightblue
+}
+
+#card8 {
+  background-color: skyblue
+}
