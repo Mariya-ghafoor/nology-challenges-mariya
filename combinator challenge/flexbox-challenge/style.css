@@ -1,0 +1,47 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  height: 300px;
+  width: 900px;
+  border: 2px solid black;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* .cards {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+} */
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card1 {
+  background-color: azure;
+  height: 80%;
+  width: 30%;
+}
+
+#card2 {
+  background-color: orange;
+  height: 80%;
+  width: 30%;
+}
+
+#card3 {
+  background-color: palevioletred;
+  height: 80%;
+  width: 30%;
+}
