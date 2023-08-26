@@ -1,0 +1,8 @@
+@use './partials/mixin';
+
+.card__para {
+  @include mixin.size;
+  @include mixin.blue;
+  @include para-bg-color(yellow)
+}
+
