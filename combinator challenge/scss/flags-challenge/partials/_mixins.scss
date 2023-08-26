@@ -1,0 +1,24 @@
+@mixin div-dimensions($height,$width){
+  
+    height: $height;
+    width: $width;
+  
+  
+}
+
+
+
+@mixin flag-colors($first, $second, $third) {
+  &__first {
+    background-color: $first;
+  }
+  
+  
+  &__second {
+    background-color: $second;
+  }
+  
+  &__third {
+    background-color: $third;
+  }
+}

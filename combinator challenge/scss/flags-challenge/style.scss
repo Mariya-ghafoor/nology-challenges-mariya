@@ -1,0 +1,50 @@
+@use './partials/mixins';
+
+
+.container {
+  height: 300px;
+  width: 400px;
+
+}
+
+// German Flag
+.color {
+  @include mixins.div-dimensions(30%,100%);
+  @include mixins.flag-colors(black, red, yellow);
+
+}
+
+
+
+
+// Belgian Flag
+@media screen  and (max-width: 900px) and (min-width:600px) {
+
+  .container {
+    display: flex;
+  }
+
+  .color {
+    @include mixins.div-dimensions(100%,50%);
+
+    @include mixins.flag-colors(black,yellow,red)
+
+
+  } 
+}
+
+// Irish Flag
+
+@media screen and (min-width:901px){
+  .container {
+    display: flex;
+
+  }
+
+  .color {
+    @include mixins.div-dimensions(100%,50%);
+    @include mixins.flag-colors(green,white,orange);
+   
+  }
+  
+}

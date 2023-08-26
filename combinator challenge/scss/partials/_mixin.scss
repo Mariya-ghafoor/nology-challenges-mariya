@@ -1,0 +1,14 @@
+@mixin size {
+  font-size: 30px;
+}
+
+@mixin blue{
+  &--blue{
+    color: blue;
+  }
+}
+
+@mixin para-bg-color($bg){
+  background-color: $bg;
+}
+
