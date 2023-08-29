@@ -22,11 +22,11 @@ if (x > y) {
 }
 
 //User input type
-let userInput = 4;
+let userInput;
 
-if (typeof userInput == "number") {
+if (typeof userInput === "number") {
   console.log(userInput ** 2);
-} else if (typeof userInput == "string") {
+} else if (typeof userInput === "string") {
   console.log(userInput);
 } else {
   console.log("Invalid input");
