@@ -36,10 +36,6 @@ switch (day) {
     today = 0;
 }
 
-// if (today) {
-//   console.log(`Today is ${today}`);
-// } else console.log("Out of range");
-
 today ? console.log(`Today is ${today}`) : console.log("Out of range");
 
 // Challenge: Eye Colour
