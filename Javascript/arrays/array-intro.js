@@ -20,7 +20,10 @@ myHobbies.push("music");
 console.log(myHobbies);
 
 //Print that last hobby in the console
-console.log(myHobbies.pop());
+const l = myHobbies.length;
+console.log(myHobbies[l - 1]);
+
+//console.log(myHobbies.pop());
 
 // Bonus:
 // Join all your hobbies in a single string each hobby being comma separated (i.e. “My hobbies are: hobby1, hobby2, hobby2”)
